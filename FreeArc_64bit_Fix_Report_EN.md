@@ -158,7 +158,7 @@ Every method, every encryption algorithm (aes/blowfish/serpent/twofish), solid m
 
 ## 4. Deliverables and locations
 
-Local (Windows) copy of all artifacts: `C:\Users\ljw\.zcode\workspace\default\ppmd-port\deliverables\`
+Local (Windows) copy of all artifacts: `C:\Users\username\.zcode\workspace\default\ppmd-port\deliverables\`
 
 | File | Contents |
 |---|---|
@@ -169,7 +169,7 @@ Local (Windows) copy of all artifacts: `C:\Users\ljw\.zcode\workspace\default\pp
 | `freearc-bins-ssh1-x86_64-p18.tar.gz` | x86_64: fork/0.51, unarc, 6 SFX |
 | `freearc-ssh19-loongarch64-bins-p18.tar.gz` | loongarch64: unarc, 6 SFX |
 
-Test assets: `C:\Users\ljw\xtest\` (corpus, 30 Windows reference archives, 60 Linux-created archives, all scripts and logs); `/tmp/xtest/` + `/home/test/linux_verify.sh`, `/home/test/linux_create.sh` on each Linux machine for re-running the full matrix.
+Test assets: `C:\Users\username\xtest\` (corpus, 30 Windows reference archives, 60 Linux-created archives, all scripts and logs); `/tmp/xtest/` + `/home/test/linux_verify.sh`, `/home/test/linux_create.sh` on each Linux machine for re-running the full matrix.
 
 Machine-side state (in sync with the tarballs): ssh20 aarch64 (`~/freearc_build/freearc-main`, `~/fa051_master/FreeArc-master`, `~/fa051/FreeArc-0.51-sources`, `~/freearc-bins`), ssh1 x86_64 (`/mnt/bigdisk/ssh1-freearc/…`), ssh19 loongarch64 (`~/freearc-loongarch/…`).
 
